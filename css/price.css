@@ -1,0 +1,74 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f4ed;
+    /* Цвет фона страницы */
+    color: white;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #7b4a4a;
+    /* Цвет заголовка */
+}
+
+p {
+    font-size: 1rem;
+    color: #7b4a4a;
+    /* Цвет текста */
+}
+
+/* Стили для карточек */
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    /* Фон карточек белый для контраста */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #7b4a4a;
+    /* Цвет заголовка карточки */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    /* Цвет текста карточки */
+    margin: 5px 0;
+}
+
+/* Стили для кнопок */
+.btn-primary {
+    background-color: #7b4a4a;
+    /* Цвет фона кнопки */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    /* Белый цвет текста на кнопке */
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #5a3535;
+    /* Темный оттенок для кнопки при наведении */
+    transition: background-color 0.3s ease;
+}

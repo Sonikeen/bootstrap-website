@@ -1,0 +1,14 @@
+.portfolio img {
+    height: 50%;
+    width: 50%;
+    border-radius: 7%;
+}
+.second-image {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    /* Сделает изображение блочным */
+    margin: 0 auto;
+    /* Центрирует по горизонтали */
+}

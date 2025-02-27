@@ -1,0 +1,63 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f4ed;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #7b4a4a;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.btn-secondary {
+    background-color: #7b4a4a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
